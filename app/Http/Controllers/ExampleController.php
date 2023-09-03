@@ -8,7 +8,7 @@ class ExampleController extends Controller
 {
     public function homepage() {
         $ourName = 'Matheus';
-        $animals = ['Bipo', 'Loro', 'Pretume'];
+        $animals = ['Bipo', 'Loro'];
 
         return view('homepage', ['allAnimals' => $animals, 'name' => $ourName]);
     }
